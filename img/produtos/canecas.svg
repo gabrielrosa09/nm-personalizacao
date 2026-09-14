@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Canecas personalizadas — foto em breve">
+  <rect width="800" height="600" fill="#f4f2fa"/>
+  <circle cx="660" cy="120" r="170" fill="#ffd100" opacity=".22"/>
+  <circle cx="140" cy="520" r="150" fill="#00a3e0" opacity=".16"/>
+  <circle cx="420" cy="560" r="120" fill="#e11d74" opacity=".12"/>
+  <g transform="translate(260 140) scale(2.8)" fill="none" stroke="#17123a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M26 26h44v42a8 8 0 0 1-8 8H34a8 8 0 0 1-8-8z"/><path d="M70 36h6a10 10 0 0 1 0 20h-6"/><path d="M36 40h24M36 50h16"/></g>
+</svg>

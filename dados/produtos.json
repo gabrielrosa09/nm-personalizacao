@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "camisetas",
+    "nome": "Camisetas personalizadas",
+    "titulo": "Camiseta personalizada no Recanto das Emas",
+    "meta": "Camisetas personalizadas com foto, frase ou logo no Recanto das Emas, Brasília-DF. Uniformes, eventos, aniversários e presentes. Orçamento rápido pelo WhatsApp.",
+    "resumo": "Foto, frase ou logo estampados. Unidade ou lote para uniformes e eventos.",
+    "intro": [
+      "Camiseta com a estampa que você quiser: foto de família, frase de aniversário, logo da empresa ou arte para um evento. A NM Personalização faz desde uma unidade até lotes para uniformes, times e formaturas, com atendimento direto pelo WhatsApp no Recanto das Emas.",
+      "Você manda a ideia, a gente monta a arte, você aprova e a camiseta fica pronta para retirar ou combinar a entrega."
+    ],
+    "ideal": [
+      "Aniversários e mesversários",
+      "Uniformes de empresa, igreja e escola",
+      "Times, excursões e formaturas",
+      "Dia dos Pais, Dia das Mães e datas especiais",
+      "Chá revelação e chá de bebê"
+    ],
+    "detalhes": [
+      "Estampa na frente, nas costas ou nas duas",
+      "Tamanhos infantil e adulto",
+      "Cores de camiseta conforme disponibilidade",
+      "Arte enviada pronta ou criada com você"
+    ],
+    "faq": [
+      { "p": "Posso pedir só uma camiseta?", "r": "Pode. A gente atende pedidos unitários e também lotes maiores." },
+      { "p": "Vocês criam a arte?", "r": "Sim. Você manda a ideia (foto, texto, referência) e a gente monta a arte para você aprovar antes de produzir." },
+      { "p": "Quanto tempo leva?", "r": "Depende da quantidade e da fila de produção. Combinamos o prazo no orçamento pelo WhatsApp." }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de camiseta personalizada.",
+    "icone": "camiseta",
+    "relacionados": ["canecas", "sacochilas", "lembrancinhas"]
+  },
+  {
+    "slug": "canecas",
+    "nome": "Canecas personalizadas",
+    "titulo": "Caneca personalizada no Recanto das Emas",
+    "meta": "Canecas personalizadas com foto, nome ou frase no Recanto das Emas, Brasília-DF. Presente para Dia dos Pais, Dia das Mães, aniversário e empresas. Peça pelo WhatsApp.",
+    "resumo": "Foto, nome ou frase na caneca. Presente que dura e aparece todo dia.",
+    "intro": [
+      "Caneca personalizada é o presente que a pessoa usa todo dia — e lembra de quem deu. A NM Personalização estampa foto, nome, frase, logo ou arte completa em canecas para presente, para brinde de empresa ou para lembrancinha de evento.",
+      "Atendimento pelo WhatsApp e retirada no Recanto das Emas, Brasília-DF."
+    ],
+    "ideal": [
+      "Dia dos Pais e Dia das Mães",
+      "Aniversário, namorados e amigo secreto",
+      "Brindes de empresa com logo",
+      "Professores, formatura e madrinhas",
+      "Canecas divertidas com frases"
+    ],
+    "detalhes": [
+      "Caneca branca ou com alça e interior coloridos",
+      "Estampa de um lado ou dos dois",
+      "Foto, nome, frase ou arte completa",
+      "Embalagem para presente sob consulta"
+    ],
+    "faq": [
+      { "p": "A estampa sai na lavagem?", "r": "Não. A estampa é feita por sublimação, que fixa a tinta na caneca. Recomendamos lavar sem esponja de aço." },
+      { "p": "Posso colocar foto?", "r": "Sim. Quanto melhor a qualidade da foto, melhor o resultado. Fotos de celular normalmente funcionam bem." },
+      { "p": "Fazem em quantidade para empresa?", "r": "Sim. Para brindes e lotes, mande a quantidade no WhatsApp que enviamos o orçamento." }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de caneca personalizada.",
+    "icone": "caneca",
+    "relacionados": ["copos", "camisetas", "lembrancinhas"]
+  },
+  {
+    "slug": "copos",
+    "nome": "Copos personalizados",
+    "titulo": "Copo personalizado no Recanto das Emas",
+    "meta": "Copos personalizados para festas, aniversários, casamentos e brindes no Recanto das Emas, Brasília-DF. Long drink, twister e mais. Orçamento pelo WhatsApp.",
+    "resumo": "Long drink, twister e outros modelos. Lembrancinha de festa que todo mundo leva pra casa.",
+    "intro": [
+      "Copos personalizados são a lembrancinha mais prática de festa: o convidado usa durante o evento e leva para casa. A NM Personalização personaliza copos com nome, data, tema da festa ou logo, em quantidade para aniversários, casamentos, formaturas e eventos de empresa.",
+      "Peça pelo WhatsApp e retire no Recanto das Emas, Brasília-DF."
+    ],
+    "ideal": [
+      "Aniversários infantis e adultos",
+      "Casamentos e chás de panela",
+      "Formaturas e confraternizações",
+      "Eventos de empresa e igreja",
+      "Kits de presente"
+    ],
+    "detalhes": [
+      "Modelos long drink, twister e outros conforme disponibilidade",
+      "Nome, data, tema ou logo",
+      "Cores variadas de copo",
+      "Quantidades para festa"
+    ],
+    "faq": [
+      { "p": "Qual a quantidade mínima?", "r": "Fazemos desde poucas unidades. Para festas, mande o número de convidados que ajustamos o orçamento." },
+      { "p": "Vocês fazem a arte com o tema da festa?", "r": "Sim. Manda o tema e as cores que montamos a arte para aprovação." },
+      { "p": "Dá para colocar o nome de cada convidado?", "r": "Sim, é possível personalizar copo a copo. Combine no orçamento." }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de copos personalizados.",
+    "icone": "copo",
+    "relacionados": ["canecas", "lembrancinhas", "banners"]
+  },
+  {
+    "slug": "toalhinhas",
+    "nome": "Toalhinhas personalizadas",
+    "titulo": "Toalhinha personalizada no Recanto das Emas",
+    "meta": "Toalhinhas personalizadas para lembrancinha de casamento, chá de bebê, escola e aniversário no Recanto das Emas, Brasília-DF. Peça pelo WhatsApp.",
+    "resumo": "Toalha de mão ou de boca com nome e arte. Lembrancinha útil e delicada.",
+    "intro": [
+      "Toalhinha personalizada é uma lembrancinha útil, leve e com acabamento delicado — por isso é uma das mais pedidas para casamento, chá de bebê e escola. A NM Personalização estampa nome, data, monograma ou arte completa.",
+      "Atendimento pelo WhatsApp e retirada no Recanto das Emas, Brasília-DF."
+    ],
+    "ideal": [
+      "Lembrancinha de casamento",
+      "Chá de bebê e maternidade",
+      "Toalha de boca para escola e creche",
+      "Aniversários e batizados",
+      "Kits de presente"
+    ],
+    "detalhes": [
+      "Toalha de mão ou de boca",
+      "Nome, data, monograma ou arte",
+      "Embalagem individual sob consulta",
+      "Quantidades para evento"
+    ],
+    "faq": [
+      { "p": "A estampa sai na lavagem?", "r": "Não. A estampa é fixada no tecido e aguenta lavagens normais." },
+      { "p": "Posso colocar o nome de cada convidado?", "r": "Sim. Combine a lista de nomes no orçamento." },
+      { "p": "Fazem em quantidade grande?", "r": "Sim. Para casamentos e eventos, mande a quantidade que enviamos o orçamento e o prazo." }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de toalhinhas personalizadas.",
+    "icone": "toalha",
+    "relacionados": ["lembrancinhas", "canecas", "sacochilas"]
+  },
+  {
+    "slug": "sacochilas",
+    "nome": "Sacochilas personalizadas",
+    "titulo": "Sacochila personalizada no Recanto das Emas",
+    "meta": "Sacochilas (mochila saco) personalizadas para escola, eventos, times e brindes no Recanto das Emas, Brasília-DF. Orçamento rápido pelo WhatsApp.",
+    "resumo": "Mochila saco com logo, nome ou arte. Ótima para escola, eventos e brindes.",
+    "intro": [
+      "A sacochila (mochila saco) é leve, prática e vira um brinde que a pessoa realmente usa. A NM Personalização estampa logo, nome ou arte completa para escolas, times, excursões, eventos e empresas.",
+      "Peça pelo WhatsApp e retire no Recanto das Emas, Brasília-DF."
+    ],
+    "ideal": [
+      "Escolas e excursões",
+      "Times e escolinhas de esporte",
+      "Brindes de empresa e eventos",
+      "Lembrancinha de aniversário infantil",
+      "Igrejas e acampamentos"
+    ],
+    "detalhes": [
+      "Estampa frente ou frente e verso",
+      "Logo, nome ou arte completa",
+      "Cores conforme disponibilidade",
+      "Quantidades para grupos"
+    ],
+    "faq": [
+      { "p": "Fazem para turma inteira?", "r": "Sim. Mande a quantidade e se quer nome individual em cada uma." },
+      { "p": "Posso mandar o logo da empresa?", "r": "Sim. Envie o logo em boa qualidade (PNG ou PDF) pelo WhatsApp." },
+      { "p": "Tem tamanho infantil?", "r": "Consulte a disponibilidade de modelos no WhatsApp." }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de sacochilas personalizadas.",
+    "icone": "sacochila",
+    "relacionados": ["camisetas", "copos", "lembrancinhas"]
+  },
+  {
+    "slug": "jogo-americano",
+    "nome": "Jogo americano personalizado",
+    "titulo": "Jogo americano personalizado no Recanto das Emas",
+    "meta": "Jogo americano personalizado com foto, nome ou estampa no Recanto das Emas, Brasília-DF. Presente para casa, casamento e datas especiais. Peça pelo WhatsApp.",
+    "resumo": "Foto, nome ou estampa na mesa. Presente para casa nova, casamento e família.",
+    "intro": [
+      "Jogo americano personalizado transforma a mesa do dia a dia: foto da família, nome do casal, estampa temática ou logo do restaurante. A NM Personalização faz unidades ou jogos completos.",
+      "Atendimento pelo WhatsApp e retirada no Recanto das Emas, Brasília-DF."
+    ],
+    "ideal": [
+      "Presente de casamento e chá de panela",
+      "Casa nova",
+      "Dia das Mães e Dia dos Pais",
+      "Restaurantes, lanchonetes e cafés",
+      "Datas comemorativas (Natal, Páscoa)"
+    ],
+    "detalhes": [
+      "Foto, nome, frase ou estampa completa",
+      "Unidade ou jogo com várias peças",
+      "Arte criada com você ou enviada pronta",
+      "Material conforme disponibilidade"
+    ],
+    "faq": [
+      { "p": "Dá para limpar?", "r": "Sim. Limpe com pano úmido; a estampa é fixada no material." },
+      { "p": "Posso colocar uma foto diferente em cada peça?", "r": "Pode. Combine no orçamento quantas artes diferentes quer." },
+      { "p": "Fazem para restaurante com logo?", "r": "Sim. Mande o logo e a quantidade pelo WhatsApp." }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de jogo americano personalizado.",
+    "icone": "jogo-americano",
+    "relacionados": ["canecas", "toalhinhas", "lembrancinhas"]
+  },
+  {
+    "slug": "banners",
+    "nome": "Banners personalizados",
+    "titulo": "Banner personalizado no Recanto das Emas",
+    "meta": "Banners personalizados para aniversário, chá de bebê, casamento, igreja e comércio no Recanto das Emas, Brasília-DF. Arte inclusa. Orçamento pelo WhatsApp.",
+    "resumo": "Painel de festa, fachada de loja ou evento. Arte montada com você.",
+    "intro": [
+      "Banner personalizado para decorar a festa, sinalizar o comércio ou divulgar um evento. A NM Personalização monta a arte com o tema, as cores e as fotos que você quiser e produz no tamanho que você precisa.",
+      "Peça pelo WhatsApp e retire no Recanto das Emas, Brasília-DF."
+    ],
+    "ideal": [
+      "Painel de aniversário e mesversário",
+      "Chá de bebê e chá revelação",
+      "Casamento e noivado",
+      "Fachada e promoções de comércio",
+      "Igrejas, escolas e eventos"
+    ],
+    "detalhes": [
+      "Tamanho sob medida",
+      "Arte com tema, fotos e nome",
+      "Acabamento para pendurar sob consulta",
+      "Prazo combinado no orçamento"
+    ],
+    "faq": [
+      { "p": "Vocês fazem a arte do painel?", "r": "Sim. Mande o tema, as cores, o nome e as fotos que montamos a arte para você aprovar." },
+      { "p": "Qual tamanho posso pedir?", "r": "Mande a medida que precisa. Ajudamos a escolher o tamanho certo para o espaço." },
+      { "p": "Qual o prazo?", "r": "Depende do tamanho e da fila. Combine o prazo no orçamento pelo WhatsApp." }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de banner personalizado.",
+    "icone": "banner",
+    "relacionados": ["copos", "lembrancinhas", "peliculas-envelopamento"]
+  },
+  {
+    "slug": "peliculas-envelopamento",
+    "nome": "Películas e envelopamento",
+    "titulo": "Películas e envelopamento no Recanto das Emas",
+    "meta": "Películas adesivas e envelopamento de objetos e superfícies no Recanto das Emas, Brasília-DF. Adesivos personalizados para decoração, comércio e presentes. Peça pelo WhatsApp.",
+    "resumo": "Adesivos e películas para renovar objetos, móveis e superfícies com a arte que você escolher.",
+    "intro": [
+      "Películas adesivas e envelopamento dão cara nova para objetos, móveis, eletrodomésticos e superfícies sem trocar nada. A NM Personalização faz adesivos com a arte, a cor ou a estampa que você escolher.",
+      "Atendimento pelo WhatsApp e retirada no Recanto das Emas, Brasília-DF."
+    ],
+    "ideal": [
+      "Renovar móveis e eletrodomésticos",
+      "Adesivos decorativos para parede e vidro",
+      "Comércio: vitrines, balcões e placas",
+      "Objetos e presentes personalizados",
+      "Identidade visual de pequenos negócios"
+    ],
+    "detalhes": [
+      "Arte, cor ou estampa à sua escolha",
+      "Recorte sob medida",
+      "Aplicação sob consulta",
+      "Materiais conforme disponibilidade"
+    ],
+    "faq": [
+      { "p": "Vocês aplicam a película?", "r": "Consulte no WhatsApp. Dependendo do objeto e da região, fazemos ou orientamos a aplicação." },
+      { "p": "Dá para tirar depois?", "r": "Sim. Películas adesivas podem ser removidas; a facilidade depende do material e do tempo de uso." },
+      { "p": "Posso mandar minha própria arte?", "r": "Sim. Envie em boa qualidade (PNG, PDF ou vetor) pelo WhatsApp." }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de película/envelopamento.",
+    "icone": "pelicula",
+    "relacionados": ["banners", "canecas", "camisetas"]
+  },
+  {
+    "slug": "lembrancinhas",
+    "nome": "Lembrancinhas personalizadas",
+    "titulo": "Lembrancinhas personalizadas no Recanto das Emas",
+    "meta": "Lembrancinhas personalizadas para casamento, Dia dos Pais, Dia das Mães, aniversário e chá de bebê no Recanto das Emas, Brasília-DF. Kits e cestas. Peça pelo WhatsApp.",
+    "resumo": "Kits, cestas e presentes montados para casamento, Dia dos Pais, Dia das Mães e aniversários.",
+    "intro": [
+      "Lembrancinha boa é a que a pessoa guarda. A NM Personalização monta kits e cestas com canecas, copos, toalhinhas, camisetas e outros itens personalizados com o nome, a data e o tema do seu evento.",
+      "Peça pelo WhatsApp e retire no Recanto das Emas, Brasília-DF."
+    ],
+    "ideal": [
+      "Casamento, noivado e padrinhos",
+      "Dia dos Pais e Dia das Mães",
+      "Aniversários e mesversários",
+      "Chá de bebê e chá revelação",
+      "Professores, formatura e amigo secreto"
+    ],
+    "detalhes": [
+      "Kits montados com os produtos que você escolher",
+      "Cestas e embalagens para presente",
+      "Nome, data e tema do evento",
+      "Quantidades para convidados"
+    ],
+    "faq": [
+      { "p": "Posso montar um kit do meu jeito?", "r": "Sim. Escolha os itens (caneca, copo, toalhinha, camiseta...) e a gente monta o kit e o orçamento." },
+      { "p": "Fazem em quantidade para casamento?", "r": "Sim. Mande o número de convidados ou padrinhos e o tema que enviamos o orçamento." },
+      { "p": "Qual a antecedência ideal?", "r": "Quanto antes, melhor, principalmente para grandes quantidades e datas como Dia dos Pais e Dia das Mães. Combine o prazo no WhatsApp." }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de lembrancinhas personalizadas.",
+    "icone": "presente",
+    "relacionados": ["canecas", "toalhinhas", "copos"]
+  }
+]

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Toalhinhas personalizadas — foto em breve">
+  <rect width="800" height="600" fill="#f4f2fa"/>
+  <circle cx="660" cy="120" r="170" fill="#ffd100" opacity=".22"/>
+  <circle cx="140" cy="520" r="150" fill="#00a3e0" opacity=".16"/>
+  <circle cx="420" cy="560" r="120" fill="#e11d74" opacity=".12"/>
+  <g transform="translate(260 140) scale(2.8)" fill="none" stroke="#17123a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><rect x="22" y="24" width="56" height="56" rx="6"/><path d="M22 40c8 4 12-4 20 0s12-4 20 0 12-4 16 0M22 56c8 4 12-4 20 0s12-4 20 0 12-4 16 0"/></g>
+</svg>

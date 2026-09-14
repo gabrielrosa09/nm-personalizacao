@@ -1,0 +1,23 @@
+{
+  "nome": "NM Personalização",
+  "dona": "Valdinéia",
+  "url": "https://nmpersonalizacao.com.br",
+  "whatsapp": "5561991104744",
+  "whatsappExibir": "(61) 99110-4744",
+  "email": "neiagg2007@gmail.com",
+  "instagram": "https://www.instagram.com/nm.personalizacao/",
+  "endereco": {
+    "rua": "Quadra 802, Conjunto 17, Casa 1",
+    "bairro": "Recanto das Emas",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "cep": ""
+  },
+  "geo": { "lat": -15.9060, "lng": -48.0620 },
+  "horario": "Segunda a sábado, com hora marcada pelo WhatsApp",
+  "regioes": [
+    "Recanto das Emas", "Samambaia", "Riacho Fundo I e II", "Gama", "Santa Maria",
+    "Taguatinga", "Ceilândia", "Águas Claras", "Park Way", "Núcleo Bandeirante",
+    "Candangolândia", "Guará", "Plano Piloto", "Águas Lindas de Goiás", "Novo Gama"
+  ]
+}

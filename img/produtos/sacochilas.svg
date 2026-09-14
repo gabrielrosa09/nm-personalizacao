@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Sacochilas personalizadas — foto em breve">
+  <rect width="800" height="600" fill="#f4f2fa"/>
+  <circle cx="660" cy="120" r="170" fill="#ffd100" opacity=".22"/>
+  <circle cx="140" cy="520" r="150" fill="#00a3e0" opacity=".16"/>
+  <circle cx="420" cy="560" r="120" fill="#e11d74" opacity=".12"/>
+  <g transform="translate(260 140) scale(2.8)" fill="none" stroke="#17123a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M30 34h40l4 46H26z"/><path d="M36 34c0-14 28-14 28 0"/><path d="M36 34 30 80M64 34l6 46"/></g>
+</svg>

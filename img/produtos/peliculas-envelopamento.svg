@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Películas e envelopamento — foto em breve">
+  <rect width="800" height="600" fill="#f4f2fa"/>
+  <circle cx="660" cy="120" r="170" fill="#ffd100" opacity=".22"/>
+  <circle cx="140" cy="520" r="150" fill="#00a3e0" opacity=".16"/>
+  <circle cx="420" cy="560" r="120" fill="#e11d74" opacity=".12"/>
+  <g transform="translate(260 140) scale(2.8)" fill="none" stroke="#17123a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><rect x="20" y="30" width="52" height="40" rx="4"/><circle cx="76" cy="50" r="10"/><path d="M28 40l36 20M28 60l36-20"/></g>
+</svg>

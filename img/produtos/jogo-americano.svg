@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Jogo americano personalizado — foto em breve">
+  <rect width="800" height="600" fill="#f4f2fa"/>
+  <circle cx="660" cy="120" r="170" fill="#ffd100" opacity=".22"/>
+  <circle cx="140" cy="520" r="150" fill="#00a3e0" opacity=".16"/>
+  <circle cx="420" cy="560" r="120" fill="#e11d74" opacity=".12"/>
+  <g transform="translate(260 140) scale(2.8)" fill="none" stroke="#17123a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="30" width="72" height="44" rx="6"/><circle cx="50" cy="52" r="14"/><path d="M26 42v20M74 42v20"/></g>
+</svg>
