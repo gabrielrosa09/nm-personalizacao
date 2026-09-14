@@ -111,7 +111,7 @@ function head({ titulo, meta, canonical, imagem, extra = '' }) {
 <link rel="canonical" href="${canonical}">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#17123a">
-<link rel="icon" href="${cfg.url}/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="${esc(cfg.nome)}">
