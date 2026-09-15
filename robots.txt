@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gabrielrosa09.github.io/nm-personalizacao/sitemap.xml
+Sitemap: https://nmpersonalizacaodf.com.br/sitemap.xml

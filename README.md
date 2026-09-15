@@ -33,7 +33,7 @@ gerar.js                gera produtos/*.html, sitemap.xml, robots.txt e placehol
 ## Antes de publicar
 
 1. **Domínio.** Registre um `.com.br` no registro.br (~R$ 40/ano). Sugestão: `nmpersonalizacao.com.br`.
-   Depois troque `https://gabrielrosa09.github.io/nm-personalizacao` em `dados/config.json` e em `index.html`, e rode `node gerar.js`.
+   Depois troque `https://nmpersonalizacaodf.com.br` em `dados/config.json` e em `index.html`, e rode `node gerar.js`.
 2. **Hospedagem gratuita.** Qualquer um destes serve para site estático:
    - Netlify (arrasta a pasta em app.netlify.com/drop)
    - Vercel
