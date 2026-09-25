@@ -20,6 +20,9 @@ const path = require('path');
 const raiz = __dirname;
 const cfg = JSON.parse(fs.readFileSync(path.join(raiz, 'dados/config.json'), 'utf8'));
 const produtos = JSON.parse(fs.readFileSync(path.join(raiz, 'dados/produtos.json'), 'utf8'));
+const galerias = fs.existsSync(path.join(raiz, 'dados/galeria.json'))
+  ? JSON.parse(fs.readFileSync(path.join(raiz, 'dados/galeria.json'), 'utf8'))
+  : {};
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const zap = (msg) => `https://wa.me/${cfg.whatsapp}?text=${encodeURIComponent(msg)}`;
@@ -139,6 +142,13 @@ const glifos = {
   banner: '<rect x="18" y="30" width="64" height="44" rx="3"/><path d="M18 30 30 18M82 30 70 18M30 18h40"/><path d="M32 50h36M32 60h24"/>',
   pelicula: '<rect x="20" y="30" width="52" height="40" rx="4"/><circle cx="76" cy="50" r="10"/><path d="M28 40l36 20M28 60l36-20"/>',
   presente: '<rect x="20" y="42" width="60" height="38" rx="4"/><path d="M16 30h68v12H16z"/><path d="M50 30v50M50 30c-8-2-16-12-8-14s8 10 8 14c0-4 0-16 8-14s0 12-8 14"/>',
+  chinelo: '<path d="M38 18c10 0 14 8 13 20l-3 34c-.5 7-5 10-10 10s-9-3-9.5-10l-3-34c-1-12 2.5-20 12.5-20z"/><path d="M30 30c4-6 12-6 16 0"/><path d="M38 30v10"/>',
+  garrafa: '<path d="M42 14h16v10c0 4 6 8 6 16v36a6 6 0 0 1-6 6H42a6 6 0 0 1-6-6V40c0-8 6-12 6-16z"/><path d="M36 46h28"/><path d="M40 8h20v6H40z"/>',
+  mousepad: '<rect x="14" y="32" width="62" height="44" rx="10"/><path d="M76 40a10 10 0 0 1 0 28"/><rect x="26" y="42" width="16" height="24" rx="8"/>',
+  body: '<path d="M32 20h36l8 8-7 9-5-3v22H36V34l-5 3-7-9z"/><path d="M36 56c0 10 6 16 14 16s14-6 14-16"/><path d="M42 20c2 5 14 5 16 0"/>',
+  chaveiro: '<circle cx="50" cy="24" r="10"/><rect x="34" y="38" width="32" height="38" rx="5"/><path d="M42 50h16M42 60h10"/>',
+  almofada: '<rect x="18" y="26" width="64" height="48" rx="12"/><path d="M18 34c8-6 56-6 64 0M18 66c8 6 56 6 64 0"/>',
+  placa: '<rect x="20" y="20" width="60" height="44" rx="4"/><path d="M28 28h44v28H28z"/><path d="M50 64v10M38 80h24"/>',
 };
 
 function placeholder(p) {
@@ -151,7 +161,14 @@ function placeholder(p) {
 </svg>`;
 }
 
+/** Fotos reais do produto (dados/galeria.json). A primeira é a capa. */
+function fotosDe(p) {
+  return galerias[p.slug] || [];
+}
+
 function imagemDe(p) {
+  const fotos = fotosDe(p);
+  if (fotos.length) return fotos[0].img;
   for (const ext of ['jpg', 'jpeg', 'png', 'webp']) {
     if (fs.existsSync(path.join(raiz, 'img/produtos', `${p.slug}.${ext}`))) return `img/produtos/${p.slug}.${ext}`;
   }
@@ -160,9 +177,44 @@ function imagemDe(p) {
   return `img/produtos/${p.slug}.svg`;
 }
 
+/** Miniatura para cards (usa a versão leve quando existe). */
+function miniaturaDe(p) {
+  const fotos = fotosDe(p);
+  return fotos.length ? fotos[0].thumb : imagemDe(p);
+}
+
+/** Galeria de trabalhos já feitos — só aparece quando há 2+ fotos. */
+function galeriaDe(p, base, sec) {
+  const fotos = fotosDe(p).slice(1);
+  if (!fotos.length) return '';
+  const itens = fotos
+    .map(
+      (f, i) => `<button class="galeria-item" type="button" data-full="${base}${f.img}" data-legenda="${esc(p.nome)} — trabalho ${i + 2}">
+          <img src="${base}${f.thumb}" alt="${esc(p.nome)} feito pela ${esc(cfg.nome)} — exemplo ${i + 2}" loading="lazy" decoding="async" width="${f.w}" height="${f.h}">
+        </button>`
+    )
+    .join('\n        ');
+  return `
+  <section class="${sec()}" id="galeria">
+    <div class="container">
+      <p class="eyebrow">Feito por nós</p>
+      <h2>Trabalhos que já saíram daqui</h2>
+      <p class="intro">Fotos reais de encomendas entregues. Toque para ampliar.</p>
+      <div class="galeria">
+        ${itens}
+      </div>
+    </div>
+  </section>`;
+}
+
 /* ---------------- página de produto ---------------- */
 function paginaProduto(p, imagem) {
   const base = '../';
+  // alterna o fundo das secoes mesmo quando a galeria nao existe
+  let nSec = 0;
+  const sec = () => (nSec++ % 2 ? 'secao secao--alt' : 'secao');
+  // dimensões reais da capa evitam salto de layout (o SVG placeholder é 800×600)
+  const capa = fotosDe(p)[0] || { w: 800, h: 600 };
   const canonical = `${cfg.url}/produtos/${p.slug}.html`;
   const tituloTag = `${p.titulo} – Brasília DF | ${cfg.nome}`;
 
@@ -202,7 +254,7 @@ function paginaProduto(p, imagem) {
     .map((slug) => produtos.find((x) => x.slug === slug))
     .filter(Boolean)
     .map((r) => {
-      const img = imagemDe(r);
+      const img = miniaturaDe(r);
       return `<a class="card" href="${r.slug}.html">
           <img src="${base}${img}" alt="${esc(r.nome)}" loading="lazy" width="800" height="600">
           <div class="corpo"><h3>${esc(r.nome)}</h3><p>${esc(r.resumo)}</p><span class="ver">Ver detalhes</span></div>
@@ -221,7 +273,7 @@ function paginaProduto(p, imagem) {
 ${cabecalho(base)}
 
 <main>
-  <section class="secao" style="padding-top:2.5rem">
+  <section class="${sec()}" style="padding-top:2.5rem">
     <div class="container">
       <nav class="migalhas" aria-label="Você está em">
         <a href="${base}index.html">Início</a><span>›</span><a href="${base}index.html#produtos">Produtos</a><span>›</span>${esc(p.nome)}
@@ -236,12 +288,12 @@ ${cabecalho(base)}
             <a class="btn btn--contorno" href="${base}index.html#produtos">Ver outros produtos</a>
           </div>
         </div>
-        <img src="${base}${imagem}" alt="${esc(p.nome)} — ${esc(cfg.nome)}, Recanto das Emas" width="800" height="600">
+        <img src="${base}${imagem}" alt="${esc(p.nome)} — ${esc(cfg.nome)}, Recanto das Emas" width="${capa.w}" height="${capa.h}" fetchpriority="high" decoding="async">
       </div>
     </div>
   </section>
 
-  <section class="secao secao--alt">
+  <section class="${sec()}">
     <div class="container">
       <div class="colunas">
         <div>
@@ -260,7 +312,9 @@ ${cabecalho(base)}
     </div>
   </section>
 
-  <section class="secao">
+${galeriaDe(p, base, sec)}
+
+  <section class="${sec()}">
     <div class="container">
       <p class="eyebrow">Passo a passo</p>
       <h2>Como pedir</h2>
@@ -272,7 +326,7 @@ ${cabecalho(base)}
     </div>
   </section>
 
-  <section class="secao secao--alt">
+  <section class="${sec()}">
     <div class="container">
       <h2>Perguntas frequentes</h2>
       <div class="faq">
@@ -281,7 +335,7 @@ ${cabecalho(base)}
     </div>
   </section>
 
-  <section class="secao">
+  <section class="${sec()}">
     <div class="container relacionados">
       <h2>Veja também</h2>
       <div class="grade">

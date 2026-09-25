@@ -4,3 +4,6 @@ Thumbs.db
 HISTORICO.md
 *.png
 perfil-google/
+fotos/
+__pycache__/
+scratch_*

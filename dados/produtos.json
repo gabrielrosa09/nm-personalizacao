@@ -23,13 +23,26 @@
       "Arte enviada pronta ou criada com você"
     ],
     "faq": [
-      { "p": "Posso pedir só uma camiseta?", "r": "Pode. A gente atende pedidos unitários e também lotes maiores." },
-      { "p": "Vocês criam a arte?", "r": "Sim. Você manda a ideia (foto, texto, referência) e a gente monta a arte para você aprovar antes de produzir." },
-      { "p": "Quanto tempo leva?", "r": "Depende da quantidade e da fila de produção. Combinamos o prazo no orçamento pelo WhatsApp." }
+      {
+        "p": "Posso pedir só uma camiseta?",
+        "r": "Pode. A gente atende pedidos unitários e também lotes maiores."
+      },
+      {
+        "p": "Vocês criam a arte?",
+        "r": "Sim. Você manda a ideia (foto, texto, referência) e a gente monta a arte para você aprovar antes de produzir."
+      },
+      {
+        "p": "Quanto tempo leva?",
+        "r": "Depende da quantidade e da fila de produção. Combinamos o prazo no orçamento pelo WhatsApp."
+      }
     ],
     "msg": "Olá! Vi o site e quero um orçamento de camiseta personalizada.",
     "icone": "camiseta",
-    "relacionados": ["canecas", "sacochilas", "lembrancinhas"]
+    "relacionados": [
+      "canecas",
+      "chinelos",
+      "bodies"
+    ]
   },
   {
     "slug": "canecas",
@@ -55,13 +68,26 @@
       "Embalagem para presente sob consulta"
     ],
     "faq": [
-      { "p": "A estampa sai na lavagem?", "r": "Não. A estampa é feita por sublimação, que fixa a tinta na caneca. Recomendamos lavar sem esponja de aço." },
-      { "p": "Posso colocar foto?", "r": "Sim. Quanto melhor a qualidade da foto, melhor o resultado. Fotos de celular normalmente funcionam bem." },
-      { "p": "Fazem em quantidade para empresa?", "r": "Sim. Para brindes e lotes, mande a quantidade no WhatsApp que enviamos o orçamento." }
+      {
+        "p": "A estampa sai na lavagem?",
+        "r": "Não. A estampa é feita por sublimação, que fixa a tinta na caneca. Recomendamos lavar sem esponja de aço."
+      },
+      {
+        "p": "Posso colocar foto?",
+        "r": "Sim. Quanto melhor a qualidade da foto, melhor o resultado. Fotos de celular normalmente funcionam bem."
+      },
+      {
+        "p": "Fazem em quantidade para empresa?",
+        "r": "Sim. Para brindes e lotes, mande a quantidade no WhatsApp que enviamos o orçamento."
+      }
     ],
     "msg": "Olá! Vi o site e quero um orçamento de caneca personalizada.",
     "icone": "caneca",
-    "relacionados": ["copos", "camisetas", "lembrancinhas"]
+    "relacionados": [
+      "garrafinhas",
+      "mousepads",
+      "lembrancinhas"
+    ]
   },
   {
     "slug": "copos",
@@ -87,13 +113,118 @@
       "Quantidades para festa"
     ],
     "faq": [
-      { "p": "Qual a quantidade mínima?", "r": "Fazemos desde poucas unidades. Para festas, mande o número de convidados que ajustamos o orçamento." },
-      { "p": "Vocês fazem a arte com o tema da festa?", "r": "Sim. Manda o tema e as cores que montamos a arte para aprovação." },
-      { "p": "Dá para colocar o nome de cada convidado?", "r": "Sim, é possível personalizar copo a copo. Combine no orçamento." }
+      {
+        "p": "Qual a quantidade mínima?",
+        "r": "Fazemos desde poucas unidades. Para festas, mande o número de convidados que ajustamos o orçamento."
+      },
+      {
+        "p": "Vocês fazem a arte com o tema da festa?",
+        "r": "Sim. Manda o tema e as cores que montamos a arte para aprovação."
+      },
+      {
+        "p": "Dá para colocar o nome de cada convidado?",
+        "r": "Sim, é possível personalizar copo a copo. Combine no orçamento."
+      }
     ],
     "msg": "Olá! Vi o site e quero um orçamento de copos personalizados.",
     "icone": "copo",
-    "relacionados": ["canecas", "lembrancinhas", "banners"]
+    "relacionados": [
+      "garrafinhas",
+      "canecas",
+      "lembrancinhas"
+    ]
+  },
+  {
+    "slug": "garrafinhas",
+    "nome": "Garrafinhas e squeezes personalizados",
+    "titulo": "Garrafinha e squeeze personalizado no Recanto das Emas",
+    "meta": "Garrafinhas, squeezes e copos térmicos personalizados com nome, foto ou tema no Recanto das Emas, Brasília-DF. Escola, festa e brinde. Orçamento pelo WhatsApp.",
+    "resumo": "Garrafinha com nome e tema. Ideal para escola, festa e brinde de empresa.",
+    "intro": [
+      "Garrafinha, squeeze ou copo térmico com o nome da criança, o personagem preferido, o time do coração ou a marca da empresa. Perfeito para escola, creche, academia e lembrancinha de festa.",
+      "Você manda a ideia, a gente monta a arte e envia para aprovação antes de produzir."
+    ],
+    "ideal": [
+      "Volta às aulas, escola e creche",
+      "Lembrancinha de aniversário infantil",
+      "Academia, treino e trabalho",
+      "Brinde de empresa e evento",
+      "Presente com nome"
+    ],
+    "detalhes": [
+      "Garrafinha de alumínio, squeeze ou copo térmico",
+      "Nome, foto, personagem ou logo",
+      "Modelos infantil e adulto",
+      "Cores de tampa conforme disponibilidade",
+      "Unidade ou quantidade para a festa"
+    ],
+    "faq": [
+      {
+        "p": "Pode lavar na máquina?",
+        "r": "Recomendamos lavar à mão, com esponja macia e sem produto abrasivo, para a estampa durar mais."
+      },
+      {
+        "p": "Dá para fazer com personagem?",
+        "r": "Sim. Você manda a referência e a gente monta a arte para aprovar antes de produzir."
+      },
+      {
+        "p": "Fazem quantidade para festa?",
+        "r": "Fazemos. Uma unidade ou o lote inteiro da festa, com o mesmo cuidado."
+      }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de garrafinha personalizada.",
+    "icone": "garrafa",
+    "relacionados": [
+      "canecas",
+      "copos",
+      "lembrancinhas"
+    ]
+  },
+  {
+    "slug": "chinelos",
+    "nome": "Chinelos personalizados",
+    "titulo": "Chinelo personalizado no Recanto das Emas",
+    "meta": "Chinelos personalizados com nome, foto ou tema no Recanto das Emas, Brasília-DF. Formatura, aniversário, festa infantil e brinde de empresa. Orçamento rápido pelo WhatsApp.",
+    "resumo": "Nome, foto ou tema na tira e na palmilha. Unidade ou lote para formatura e festa.",
+    "intro": [
+      "Chinelo personalizado do jeito que você quiser: nome do formando, tema do aniversário, personagem favorito da criança ou a marca da sua empresa. A estampa vai na palmilha, na tira ou nas duas.",
+      "A NM Personalização faz desde um par avulso até lotes para turma de formatura, equipe e festa, com atendimento direto pelo WhatsApp no Recanto das Emas."
+    ],
+    "ideal": [
+      "Formatura e turma de faculdade",
+      "Aniversário e festa infantil",
+      "Casamento, madrinhas e chá de panela",
+      "Brinde e evento de empresa",
+      "Presente com nome ou apelido"
+    ],
+    "detalhes": [
+      "Estampa na palmilha, na tira ou nas duas",
+      "Numeração infantil e adulta",
+      "Cores de tira conforme disponibilidade",
+      "Arte enviada pronta ou criada com você",
+      "Embalagem individual para lembrancinha"
+    ],
+    "faq": [
+      {
+        "p": "Posso pedir só um par?",
+        "r": "Pode. Atendemos pedidos unitários e também lotes grandes para formatura e evento."
+      },
+      {
+        "p": "Dá para colocar foto no chinelo?",
+        "r": "Sim. Foto, logo, nome, data: o que você mandar a gente monta na arte e envia para aprovar antes de produzir."
+      },
+      {
+        "p": "Quanto tempo leva um lote de formatura?",
+        "r": "Depende da quantidade e da fila de produção. Combinamos o prazo no orçamento pelo WhatsApp."
+      }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de chinelo personalizado.",
+    "icone": "chinelo",
+    "relacionados": [
+      "camisetas",
+      "sacochilas",
+      "lembrancinhas"
+    ]
   },
   {
     "slug": "toalhinhas",
@@ -119,13 +250,72 @@
       "Quantidades para evento"
     ],
     "faq": [
-      { "p": "A estampa sai na lavagem?", "r": "Não. A estampa é fixada no tecido e aguenta lavagens normais." },
-      { "p": "Posso colocar o nome de cada convidado?", "r": "Sim. Combine a lista de nomes no orçamento." },
-      { "p": "Fazem em quantidade grande?", "r": "Sim. Para casamentos e eventos, mande a quantidade que enviamos o orçamento e o prazo." }
+      {
+        "p": "A estampa sai na lavagem?",
+        "r": "Não. A estampa é fixada no tecido e aguenta lavagens normais."
+      },
+      {
+        "p": "Posso colocar o nome de cada convidado?",
+        "r": "Sim. Combine a lista de nomes no orçamento."
+      },
+      {
+        "p": "Fazem em quantidade grande?",
+        "r": "Sim. Para casamentos e eventos, mande a quantidade que enviamos o orçamento e o prazo."
+      }
     ],
     "msg": "Olá! Vi o site e quero um orçamento de toalhinhas personalizadas.",
     "icone": "toalha",
-    "relacionados": ["lembrancinhas", "canecas", "sacochilas"]
+    "relacionados": [
+      "bodies",
+      "sacochilas",
+      "chinelos"
+    ]
+  },
+  {
+    "slug": "bodies",
+    "nome": "Body de bebê personalizado",
+    "titulo": "Body de bebê personalizado no Recanto das Emas",
+    "meta": "Body de bebê personalizado com nome, frase ou tema no Recanto das Emas, Brasília-DF. Chá de bebê, mesversário e presente de maternidade. Orçamento pelo WhatsApp.",
+    "resumo": "Nome, frase ou tema no body. Chá de bebê, mesversário e maternidade.",
+    "intro": [
+      "Body de bebê com o nome, a frase que a família escolher ou o tema do chá. Fica lindo em foto de mesversário e é o presente de maternidade que sempre acerta.",
+      "Fazemos também o conjunto com a sacochila ou a toalhinha combinando, com o mesmo nome e a mesma arte."
+    ],
+    "ideal": [
+      "Chá de bebê e chá revelação",
+      "Mesversário e ensaio de fotos",
+      "Presente de maternidade",
+      "Creche e escolinha",
+      "Dia dos Pais e Dia das Mães"
+    ],
+    "detalhes": [
+      "Tamanhos RN ao G",
+      "Nome, frase, personagem ou arte da festa",
+      "Estampa na frente ou nas costas",
+      "Combina com sacochila e toalhinha",
+      "Unidade ou kit presente"
+    ],
+    "faq": [
+      {
+        "p": "Qual tamanho devo pedir?",
+        "r": "Tem do RN ao G. Se for presente, o P costuma ser a escolha mais segura."
+      },
+      {
+        "p": "A estampa descola na lavagem?",
+        "r": "Não, se lavar do avesso, com água fria e sem alvejante. A gente manda as instruções junto."
+      },
+      {
+        "p": "Dá para fazer conjunto?",
+        "r": "Dá. Body, sacochila e toalhinha com o mesmo nome e a mesma arte, tudo combinando."
+      }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de body de bebê personalizado.",
+    "icone": "body",
+    "relacionados": [
+      "toalhinhas",
+      "sacochilas",
+      "lembrancinhas"
+    ]
   },
   {
     "slug": "sacochilas",
@@ -151,13 +341,210 @@
       "Quantidades para grupos"
     ],
     "faq": [
-      { "p": "Fazem para turma inteira?", "r": "Sim. Mande a quantidade e se quer nome individual em cada uma." },
-      { "p": "Posso mandar o logo da empresa?", "r": "Sim. Envie o logo em boa qualidade (PNG ou PDF) pelo WhatsApp." },
-      { "p": "Tem tamanho infantil?", "r": "Consulte a disponibilidade de modelos no WhatsApp." }
+      {
+        "p": "Fazem para turma inteira?",
+        "r": "Sim. Mande a quantidade e se quer nome individual em cada uma."
+      },
+      {
+        "p": "Posso mandar o logo da empresa?",
+        "r": "Sim. Envie o logo em boa qualidade (PNG ou PDF) pelo WhatsApp."
+      },
+      {
+        "p": "Tem tamanho infantil?",
+        "r": "Consulte a disponibilidade de modelos no WhatsApp."
+      }
     ],
     "msg": "Olá! Vi o site e quero um orçamento de sacochilas personalizadas.",
     "icone": "sacochila",
-    "relacionados": ["camisetas", "copos", "lembrancinhas"]
+    "relacionados": [
+      "bodies",
+      "chinelos",
+      "toalhinhas"
+    ]
+  },
+  {
+    "slug": "mousepads",
+    "nome": "Mousepads personalizados",
+    "titulo": "Mousepad personalizado no Recanto das Emas",
+    "meta": "Mousepads personalizados com foto, nome ou logo no Recanto das Emas, Brasília-DF. Brinde corporativo, Dia dos Professores e presente. Orçamento pelo WhatsApp.",
+    "resumo": "Foto, nome ou logo no mousepad. Ótimo brinde corporativo e presente.",
+    "intro": [
+      "Mousepad com a foto da família, o logo da empresa ou uma homenagem. Tem também o modelo com apoio de punho, mais confortável para quem passa o dia no computador.",
+      "É um dos brindes corporativos que mais funciona: fica na mesa do cliente todo dia, com a sua marca à vista."
+    ],
+    "ideal": [
+      "Brinde corporativo com logo",
+      "Dia dos Professores e Dia das Mães",
+      "Presente com foto de família",
+      "Home office e setup de escritório",
+      "Profissionais liberais e consultórios"
+    ],
+    "detalhes": [
+      "Modelo simples ou com apoio de punho",
+      "Foto, nome, logo ou arte completa",
+      "Base antiderrapante",
+      "Arte enviada pronta ou criada com você",
+      "Unidade ou lote para empresa"
+    ],
+    "faq": [
+      {
+        "p": "Fazem com o logo da minha empresa?",
+        "r": "Sim. Mande o logo em boa qualidade que a gente monta a arte e envia para aprovar."
+      },
+      {
+        "p": "Qual a diferença do modelo com apoio?",
+        "r": "O apoio de punho é um descanso acolchoado na borda, mais confortável para uso longo."
+      },
+      {
+        "p": "Tem quantidade mínima?",
+        "r": "Não. Fazemos uma unidade ou o lote que a empresa precisar."
+      }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de mousepad personalizado.",
+    "icone": "mousepad",
+    "relacionados": [
+      "canecas",
+      "camisetas",
+      "lembrancinhas"
+    ]
+  },
+  {
+    "slug": "chaveiros",
+    "nome": "Chaveiros personalizados",
+    "titulo": "Chaveiro personalizado no Recanto das Emas",
+    "meta": "Chaveiros personalizados com nome, foto ou frase no Recanto das Emas, Brasília-DF. Lembrancinha de festa, Dia dos Professores e brinde. Orçamento pelo WhatsApp.",
+    "resumo": "Lembrancinha barata e útil. Nome, foto ou frase, na quantidade da festa.",
+    "intro": [
+      "Chaveiro personalizado é a lembrancinha que cabe no orçamento e ninguém joga fora: vai para a chave de casa e lembra da sua festa todo dia.",
+      "Fazemos com nome, foto, frase ou personagem, em formato redondo, quadrado ou recortado no tema."
+    ],
+    "ideal": [
+      "Lembrancinha de aniversário e formatura",
+      "Dia dos Professores e fim de ano escolar",
+      "Casamento, padrinhos e madrinhas",
+      "Brinde de empresa e evento",
+      "Souvenir de igreja e retiro"
+    ],
+    "detalhes": [
+      "Formato redondo, quadrado ou recortado",
+      "Nome, foto, frase ou personagem",
+      "Argola ou corrente",
+      "Embalagem individual para entregar",
+      "Feito na quantidade da sua festa"
+    ],
+    "faq": [
+      {
+        "p": "Qual a quantidade mínima?",
+        "r": "Não temos mínimo, mas chaveiro costuma sair em quantidade: quanto maior o lote, melhor fica o valor por peça."
+      },
+      {
+        "p": "Pode colocar foto?",
+        "r": "Pode. Foto, nome, data, logo: a gente monta a arte e envia para aprovar."
+      },
+      {
+        "p": "Vem embalado?",
+        "r": "Sim, pode ir embalado individualmente, pronto para entregar na festa."
+      }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de chaveiro personalizado.",
+    "icone": "chaveiro",
+    "relacionados": [
+      "lembrancinhas",
+      "canecas",
+      "toalhinhas"
+    ]
+  },
+  {
+    "slug": "almofadas",
+    "nome": "Almofadas personalizadas",
+    "titulo": "Almofada personalizada no Recanto das Emas",
+    "meta": "Almofadas personalizadas com foto, frase ou estampa no Recanto das Emas, Brasília-DF. Presente, decoração e data especial. Orçamento pelo WhatsApp.",
+    "resumo": "Foto, frase ou estampa na almofada. Presente e decoração de casa.",
+    "intro": [
+      "Almofada com a foto de quem você ama, uma frase marcante, uma imagem religiosa ou uma estampa para combinar com a sala. Presente que decora e emociona.",
+      "Fazemos avulsa ou em jogo, com estampa de um lado ou dos dois."
+    ],
+    "ideal": [
+      "Presente de aniversário e namoro",
+      "Dia das Mães e Dia dos Pais",
+      "Decoração de sala e quarto",
+      "Homenagem e imagem religiosa",
+      "Lembrança de casamento"
+    ],
+    "detalhes": [
+      "Capa estampada com enchimento",
+      "Foto, frase, estampa ou imagem religiosa",
+      "Estampa de um lado ou dos dois",
+      "Avulsa ou em jogo",
+      "Arte enviada pronta ou criada com você"
+    ],
+    "faq": [
+      {
+        "p": "A capa sai para lavar?",
+        "r": "Sim, a capa é removível. Lave à mão ou em ciclo delicado, do avesso."
+      },
+      {
+        "p": "Dá para fazer com foto?",
+        "r": "Dá. Mande a foto em boa qualidade que a gente ajusta na arte e envia para aprovar."
+      },
+      {
+        "p": "Fazem jogo com várias?",
+        "r": "Fazemos. Você escolhe as estampas e montamos o jogo combinando."
+      }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de almofada personalizada.",
+    "icone": "almofada",
+    "relacionados": [
+      "canecas",
+      "lembrancinhas",
+      "camisetas"
+    ]
+  },
+  {
+    "slug": "placas",
+    "nome": "Placas e azulejos personalizados",
+    "titulo": "Placa e azulejo personalizado no Recanto das Emas",
+    "meta": "Placas e azulejos personalizados com endereço, foto ou imagem religiosa no Recanto das Emas, Brasília-DF. Decoração e presente. Orçamento pelo WhatsApp.",
+    "resumo": "Placa de endereço, azulejo decorativo ou porta-retrato em cerâmica.",
+    "intro": [
+      "Azulejo com o endereço da casa, placa decorativa com foto do casal ou imagem religiosa para a parede. Impressão em cerâmica, que não desbota com o tempo.",
+      "Vai com suporte de mesa ou pronta para pendurar, como você preferir."
+    ],
+    "ideal": [
+      "Placa de endereço para a fachada",
+      "Presente de casamento e namoro",
+      "Imagem religiosa e oração",
+      "Decoração de sala, cozinha e escritório",
+      "Homenagem e data marcante"
+    ],
+    "detalhes": [
+      "Azulejo em cerâmica com impressão permanente",
+      "Endereço, foto, oração ou arte livre",
+      "Com suporte de mesa ou para pendurar",
+      "Tamanhos conforme disponibilidade",
+      "Arte enviada pronta ou criada com você"
+    ],
+    "faq": [
+      {
+        "p": "Pode ficar na parede de fora?",
+        "r": "Pode. A impressão em cerâmica aguenta sol e chuva sem desbotar."
+      },
+      {
+        "p": "Dá para colocar foto?",
+        "r": "Dá. Foto do casal, da família ou imagem religiosa, com o texto que você quiser."
+      },
+      {
+        "p": "Vem com suporte?",
+        "r": "Pode vir com suporte de mesa ou preparada para pendurar. Você escolhe no orçamento."
+      }
+    ],
+    "msg": "Olá! Vi o site e quero um orçamento de placa ou azulejo personalizado.",
+    "icone": "placa",
+    "relacionados": [
+      "almofadas",
+      "lembrancinhas",
+      "canecas"
+    ]
   },
   {
     "slug": "jogo-americano",
@@ -183,13 +570,26 @@
       "Material conforme disponibilidade"
     ],
     "faq": [
-      { "p": "Dá para limpar?", "r": "Sim. Limpe com pano úmido; a estampa é fixada no material." },
-      { "p": "Posso colocar uma foto diferente em cada peça?", "r": "Pode. Combine no orçamento quantas artes diferentes quer." },
-      { "p": "Fazem para restaurante com logo?", "r": "Sim. Mande o logo e a quantidade pelo WhatsApp." }
+      {
+        "p": "Dá para limpar?",
+        "r": "Sim. Limpe com pano úmido; a estampa é fixada no material."
+      },
+      {
+        "p": "Posso colocar uma foto diferente em cada peça?",
+        "r": "Pode. Combine no orçamento quantas artes diferentes quer."
+      },
+      {
+        "p": "Fazem para restaurante com logo?",
+        "r": "Sim. Mande o logo e a quantidade pelo WhatsApp."
+      }
     ],
     "msg": "Olá! Vi o site e quero um orçamento de jogo americano personalizado.",
     "icone": "jogo-americano",
-    "relacionados": ["canecas", "toalhinhas", "lembrancinhas"]
+    "relacionados": [
+      "canecas",
+      "toalhinhas",
+      "lembrancinhas"
+    ]
   },
   {
     "slug": "banners",
@@ -215,13 +615,26 @@
       "Prazo combinado no orçamento"
     ],
     "faq": [
-      { "p": "Vocês fazem a arte do painel?", "r": "Sim. Mande o tema, as cores, o nome e as fotos que montamos a arte para você aprovar." },
-      { "p": "Qual tamanho posso pedir?", "r": "Mande a medida que precisa. Ajudamos a escolher o tamanho certo para o espaço." },
-      { "p": "Qual o prazo?", "r": "Depende do tamanho e da fila. Combine o prazo no orçamento pelo WhatsApp." }
+      {
+        "p": "Vocês fazem a arte do painel?",
+        "r": "Sim. Mande o tema, as cores, o nome e as fotos que montamos a arte para você aprovar."
+      },
+      {
+        "p": "Qual tamanho posso pedir?",
+        "r": "Mande a medida que precisa. Ajudamos a escolher o tamanho certo para o espaço."
+      },
+      {
+        "p": "Qual o prazo?",
+        "r": "Depende do tamanho e da fila. Combine o prazo no orçamento pelo WhatsApp."
+      }
     ],
     "msg": "Olá! Vi o site e quero um orçamento de banner personalizado.",
     "icone": "banner",
-    "relacionados": ["copos", "lembrancinhas", "peliculas-envelopamento"]
+    "relacionados": [
+      "copos",
+      "lembrancinhas",
+      "peliculas-envelopamento"
+    ]
   },
   {
     "slug": "peliculas-envelopamento",
@@ -247,13 +660,26 @@
       "Materiais conforme disponibilidade"
     ],
     "faq": [
-      { "p": "Vocês aplicam a película?", "r": "Consulte no WhatsApp. Dependendo do objeto e da região, fazemos ou orientamos a aplicação." },
-      { "p": "Dá para tirar depois?", "r": "Sim. Películas adesivas podem ser removidas; a facilidade depende do material e do tempo de uso." },
-      { "p": "Posso mandar minha própria arte?", "r": "Sim. Envie em boa qualidade (PNG, PDF ou vetor) pelo WhatsApp." }
+      {
+        "p": "Vocês aplicam a película?",
+        "r": "Consulte no WhatsApp. Dependendo do objeto e da região, fazemos ou orientamos a aplicação."
+      },
+      {
+        "p": "Dá para tirar depois?",
+        "r": "Sim. Películas adesivas podem ser removidas; a facilidade depende do material e do tempo de uso."
+      },
+      {
+        "p": "Posso mandar minha própria arte?",
+        "r": "Sim. Envie em boa qualidade (PNG, PDF ou vetor) pelo WhatsApp."
+      }
     ],
     "msg": "Olá! Vi o site e quero um orçamento de película/envelopamento.",
     "icone": "pelicula",
-    "relacionados": ["banners", "canecas", "camisetas"]
+    "relacionados": [
+      "banners",
+      "canecas",
+      "camisetas"
+    ]
   },
   {
     "slug": "lembrancinhas",
@@ -279,12 +705,25 @@
       "Quantidades para convidados"
     ],
     "faq": [
-      { "p": "Posso montar um kit do meu jeito?", "r": "Sim. Escolha os itens (caneca, copo, toalhinha, camiseta...) e a gente monta o kit e o orçamento." },
-      { "p": "Fazem em quantidade para casamento?", "r": "Sim. Mande o número de convidados ou padrinhos e o tema que enviamos o orçamento." },
-      { "p": "Qual a antecedência ideal?", "r": "Quanto antes, melhor, principalmente para grandes quantidades e datas como Dia dos Pais e Dia das Mães. Combine o prazo no WhatsApp." }
+      {
+        "p": "Posso montar um kit do meu jeito?",
+        "r": "Sim. Escolha os itens (caneca, copo, toalhinha, camiseta...) e a gente monta o kit e o orçamento."
+      },
+      {
+        "p": "Fazem em quantidade para casamento?",
+        "r": "Sim. Mande o número de convidados ou padrinhos e o tema que enviamos o orçamento."
+      },
+      {
+        "p": "Qual a antecedência ideal?",
+        "r": "Quanto antes, melhor, principalmente para grandes quantidades e datas como Dia dos Pais e Dia das Mães. Combine o prazo no WhatsApp."
+      }
     ],
     "msg": "Olá! Vi o site e quero um orçamento de lembrancinhas personalizadas.",
     "icone": "presente",
-    "relacionados": ["canecas", "toalhinhas", "copos"]
+    "relacionados": [
+      "chaveiros",
+      "canecas",
+      "chinelos"
+    ]
   }
 ]

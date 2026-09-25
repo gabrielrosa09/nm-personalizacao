@@ -1,0 +1,562 @@
+{
+ "canecas": [
+  {
+   "img": "img/produtos/canecas/01.webp",
+   "thumb": "img/produtos/canecas/01-t.webp",
+   "w": 800,
+   "h": 800
+  },
+  {
+   "img": "img/produtos/canecas/02.webp",
+   "thumb": "img/produtos/canecas/02-t.webp",
+   "w": 1000,
+   "h": 1000
+  },
+  {
+   "img": "img/produtos/canecas/03.webp",
+   "thumb": "img/produtos/canecas/03-t.webp",
+   "w": 1100,
+   "h": 641
+  },
+  {
+   "img": "img/produtos/canecas/04.webp",
+   "thumb": "img/produtos/canecas/04-t.webp",
+   "w": 1100,
+   "h": 991
+  },
+  {
+   "img": "img/produtos/canecas/05.webp",
+   "thumb": "img/produtos/canecas/05-t.webp",
+   "w": 859,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/canecas/06.webp",
+   "thumb": "img/produtos/canecas/06-t.webp",
+   "w": 1100,
+   "h": 738
+  },
+  {
+   "img": "img/produtos/canecas/07.webp",
+   "thumb": "img/produtos/canecas/07-t.webp",
+   "w": 778,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/canecas/08.webp",
+   "thumb": "img/produtos/canecas/08-t.webp",
+   "w": 1080,
+   "h": 1080
+  },
+  {
+   "img": "img/produtos/canecas/09.webp",
+   "thumb": "img/produtos/canecas/09-t.webp",
+   "w": 1100,
+   "h": 786
+  },
+  {
+   "img": "img/produtos/canecas/10.webp",
+   "thumb": "img/produtos/canecas/10-t.webp",
+   "w": 1100,
+   "h": 1031
+  },
+  {
+   "img": "img/produtos/canecas/11.webp",
+   "thumb": "img/produtos/canecas/11-t.webp",
+   "w": 1100,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/canecas/12.webp",
+   "thumb": "img/produtos/canecas/12-t.webp",
+   "w": 1100,
+   "h": 854
+  },
+  {
+   "img": "img/produtos/canecas/13.webp",
+   "thumb": "img/produtos/canecas/13-t.webp",
+   "w": 978,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/canecas/14.webp",
+   "thumb": "img/produtos/canecas/14-t.webp",
+   "w": 769,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/canecas/15.webp",
+   "thumb": "img/produtos/canecas/15-t.webp",
+   "w": 619,
+   "h": 1100
+  }
+ ],
+ "camisetas": [
+  {
+   "img": "img/produtos/camisetas/01.webp",
+   "thumb": "img/produtos/camisetas/01-t.webp",
+   "w": 1100,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/camisetas/02.webp",
+   "thumb": "img/produtos/camisetas/02-t.webp",
+   "w": 795,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/camisetas/03.webp",
+   "thumb": "img/produtos/camisetas/03-t.webp",
+   "w": 800,
+   "h": 800
+  },
+  {
+   "img": "img/produtos/camisetas/04.webp",
+   "thumb": "img/produtos/camisetas/04-t.webp",
+   "w": 1100,
+   "h": 960
+  },
+  {
+   "img": "img/produtos/camisetas/05.webp",
+   "thumb": "img/produtos/camisetas/05-t.webp",
+   "w": 1100,
+   "h": 1003
+  },
+  {
+   "img": "img/produtos/camisetas/06.webp",
+   "thumb": "img/produtos/camisetas/06-t.webp",
+   "w": 1080,
+   "h": 963
+  },
+  {
+   "img": "img/produtos/camisetas/07.webp",
+   "thumb": "img/produtos/camisetas/07-t.webp",
+   "w": 1100,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/camisetas/08.webp",
+   "thumb": "img/produtos/camisetas/08-t.webp",
+   "w": 1100,
+   "h": 900
+  },
+  {
+   "img": "img/produtos/camisetas/09.webp",
+   "thumb": "img/produtos/camisetas/09-t.webp",
+   "w": 825,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/camisetas/10.webp",
+   "thumb": "img/produtos/camisetas/10-t.webp",
+   "w": 825,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/camisetas/11.webp",
+   "thumb": "img/produtos/camisetas/11-t.webp",
+   "w": 825,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/camisetas/12.webp",
+   "thumb": "img/produtos/camisetas/12-t.webp",
+   "w": 1080,
+   "h": 963
+  },
+  {
+   "img": "img/produtos/camisetas/13.webp",
+   "thumb": "img/produtos/camisetas/13-t.webp",
+   "w": 619,
+   "h": 1100
+  }
+ ],
+ "chinelos": [
+  {
+   "img": "img/produtos/chinelos/01.webp",
+   "thumb": "img/produtos/chinelos/01-t.webp",
+   "w": 896,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/02.webp",
+   "thumb": "img/produtos/chinelos/02-t.webp",
+   "w": 851,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/03.webp",
+   "thumb": "img/produtos/chinelos/03-t.webp",
+   "w": 1088,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/04.webp",
+   "thumb": "img/produtos/chinelos/04-t.webp",
+   "w": 1013,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/05.webp",
+   "thumb": "img/produtos/chinelos/05-t.webp",
+   "w": 1013,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/06.webp",
+   "thumb": "img/produtos/chinelos/06-t.webp",
+   "w": 619,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/07.webp",
+   "thumb": "img/produtos/chinelos/07-t.webp",
+   "w": 985,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/08.webp",
+   "thumb": "img/produtos/chinelos/08-t.webp",
+   "w": 1100,
+   "h": 912
+  },
+  {
+   "img": "img/produtos/chinelos/09.webp",
+   "thumb": "img/produtos/chinelos/09-t.webp",
+   "w": 894,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/10.webp",
+   "thumb": "img/produtos/chinelos/10-t.webp",
+   "w": 916,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/11.webp",
+   "thumb": "img/produtos/chinelos/11-t.webp",
+   "w": 880,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/12.webp",
+   "thumb": "img/produtos/chinelos/12-t.webp",
+   "w": 508,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/13.webp",
+   "thumb": "img/produtos/chinelos/13-t.webp",
+   "w": 895,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chinelos/14.webp",
+   "thumb": "img/produtos/chinelos/14-t.webp",
+   "w": 1100,
+   "h": 1095
+  },
+  {
+   "img": "img/produtos/chinelos/15.webp",
+   "thumb": "img/produtos/chinelos/15-t.webp",
+   "w": 851,
+   "h": 1100
+  }
+ ],
+ "toalhinhas": [
+  {
+   "img": "img/produtos/toalhinhas/01.webp",
+   "thumb": "img/produtos/toalhinhas/01-t.webp",
+   "w": 1000,
+   "h": 1000
+  },
+  {
+   "img": "img/produtos/toalhinhas/02.webp",
+   "thumb": "img/produtos/toalhinhas/02-t.webp",
+   "w": 802,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/toalhinhas/03.webp",
+   "thumb": "img/produtos/toalhinhas/03-t.webp",
+   "w": 1100,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/toalhinhas/04.webp",
+   "thumb": "img/produtos/toalhinhas/04-t.webp",
+   "w": 1000,
+   "h": 1000
+  },
+  {
+   "img": "img/produtos/toalhinhas/05.webp",
+   "thumb": "img/produtos/toalhinhas/05-t.webp",
+   "w": 825,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/toalhinhas/06.webp",
+   "thumb": "img/produtos/toalhinhas/06-t.webp",
+   "w": 1100,
+   "h": 619
+  },
+  {
+   "img": "img/produtos/toalhinhas/07.webp",
+   "thumb": "img/produtos/toalhinhas/07-t.webp",
+   "w": 1080,
+   "h": 712
+  }
+ ],
+ "garrafinhas": [
+  {
+   "img": "img/produtos/garrafinhas/01.webp",
+   "thumb": "img/produtos/garrafinhas/01-t.webp",
+   "w": 1081,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/garrafinhas/02.webp",
+   "thumb": "img/produtos/garrafinhas/02-t.webp",
+   "w": 1100,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/garrafinhas/03.webp",
+   "thumb": "img/produtos/garrafinhas/03-t.webp",
+   "w": 543,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/garrafinhas/04.webp",
+   "thumb": "img/produtos/garrafinhas/04-t.webp",
+   "w": 825,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/garrafinhas/05.webp",
+   "thumb": "img/produtos/garrafinhas/05-t.webp",
+   "w": 1100,
+   "h": 470
+  },
+  {
+   "img": "img/produtos/garrafinhas/06.webp",
+   "thumb": "img/produtos/garrafinhas/06-t.webp",
+   "w": 825,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/garrafinhas/07.webp",
+   "thumb": "img/produtos/garrafinhas/07-t.webp",
+   "w": 619,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/garrafinhas/08.webp",
+   "thumb": "img/produtos/garrafinhas/08-t.webp",
+   "w": 900,
+   "h": 1100
+  }
+ ],
+ "copos": [
+  {
+   "img": "img/produtos/copos/01.webp",
+   "thumb": "img/produtos/copos/01-t.webp",
+   "w": 1100,
+   "h": 533
+  },
+  {
+   "img": "img/produtos/copos/02.webp",
+   "thumb": "img/produtos/copos/02-t.webp",
+   "w": 813,
+   "h": 1100
+  }
+ ],
+ "mousepads": [
+  {
+   "img": "img/produtos/mousepads/01.webp",
+   "thumb": "img/produtos/mousepads/01-t.webp",
+   "w": 1004,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/mousepads/02.webp",
+   "thumb": "img/produtos/mousepads/02-t.webp",
+   "w": 943,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/mousepads/03.webp",
+   "thumb": "img/produtos/mousepads/03-t.webp",
+   "w": 1080,
+   "h": 1008
+  },
+  {
+   "img": "img/produtos/mousepads/04.webp",
+   "thumb": "img/produtos/mousepads/04-t.webp",
+   "w": 1100,
+   "h": 1079
+  },
+  {
+   "img": "img/produtos/mousepads/05.webp",
+   "thumb": "img/produtos/mousepads/05-t.webp",
+   "w": 758,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/mousepads/06.webp",
+   "thumb": "img/produtos/mousepads/06-t.webp",
+   "w": 1100,
+   "h": 1079
+  },
+  {
+   "img": "img/produtos/mousepads/07.webp",
+   "thumb": "img/produtos/mousepads/07-t.webp",
+   "w": 949,
+   "h": 1100
+  }
+ ],
+ "sacochilas": [
+  {
+   "img": "img/produtos/sacochilas/01.webp",
+   "thumb": "img/produtos/sacochilas/01-t.webp",
+   "w": 1100,
+   "h": 982
+  },
+  {
+   "img": "img/produtos/sacochilas/02.webp",
+   "thumb": "img/produtos/sacochilas/02-t.webp",
+   "w": 1100,
+   "h": 948
+  },
+  {
+   "img": "img/produtos/sacochilas/03.webp",
+   "thumb": "img/produtos/sacochilas/03-t.webp",
+   "w": 1100,
+   "h": 947
+  },
+  {
+   "img": "img/produtos/sacochilas/04.webp",
+   "thumb": "img/produtos/sacochilas/04-t.webp",
+   "w": 1100,
+   "h": 908
+  }
+ ],
+ "bodies": [
+  {
+   "img": "img/produtos/bodies/01.webp",
+   "thumb": "img/produtos/bodies/01-t.webp",
+   "w": 1100,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/bodies/02.webp",
+   "thumb": "img/produtos/bodies/02-t.webp",
+   "w": 1080,
+   "h": 921
+  },
+  {
+   "img": "img/produtos/bodies/03.webp",
+   "thumb": "img/produtos/bodies/03-t.webp",
+   "w": 1100,
+   "h": 1100
+  }
+ ],
+ "chaveiros": [
+  {
+   "img": "img/produtos/chaveiros/01.webp",
+   "thumb": "img/produtos/chaveiros/01-t.webp",
+   "w": 667,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chaveiros/02.webp",
+   "thumb": "img/produtos/chaveiros/02-t.webp",
+   "w": 1080,
+   "h": 810
+  },
+  {
+   "img": "img/produtos/chaveiros/03.webp",
+   "thumb": "img/produtos/chaveiros/03-t.webp",
+   "w": 1080,
+   "h": 810
+  }
+ ],
+ "almofadas": [
+  {
+   "img": "img/produtos/almofadas/01.webp",
+   "thumb": "img/produtos/almofadas/01-t.webp",
+   "w": 1093,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/almofadas/02.webp",
+   "thumb": "img/produtos/almofadas/02-t.webp",
+   "w": 1100,
+   "h": 1088
+  },
+  {
+   "img": "img/produtos/almofadas/03.webp",
+   "thumb": "img/produtos/almofadas/03-t.webp",
+   "w": 1080,
+   "h": 655
+  }
+ ],
+ "placas": [
+  {
+   "img": "img/produtos/placas/01.webp",
+   "thumb": "img/produtos/placas/01-t.webp",
+   "w": 1092,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/placas/02.webp",
+   "thumb": "img/produtos/placas/02-t.webp",
+   "w": 1100,
+   "h": 909
+  },
+  {
+   "img": "img/produtos/placas/03.webp",
+   "thumb": "img/produtos/placas/03-t.webp",
+   "w": 619,
+   "h": 1100
+  }
+ ],
+ "lembrancinhas": [
+  {
+   "img": "img/produtos/canecas/15.webp",
+   "thumb": "img/produtos/canecas/15-t.webp",
+   "w": 619,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/chaveiros/02.webp",
+   "thumb": "img/produtos/chaveiros/02-t.webp",
+   "w": 1080,
+   "h": 810
+  },
+  {
+   "img": "img/produtos/canecas/03.webp",
+   "thumb": "img/produtos/canecas/03-t.webp",
+   "w": 1100,
+   "h": 641
+  },
+  {
+   "img": "img/produtos/canecas/12.webp",
+   "thumb": "img/produtos/canecas/12-t.webp",
+   "w": 1100,
+   "h": 854
+  },
+  {
+   "img": "img/produtos/chinelos/09.webp",
+   "thumb": "img/produtos/chinelos/09-t.webp",
+   "w": 894,
+   "h": 1100
+  },
+  {
+   "img": "img/produtos/toalhinhas/01.webp",
+   "thumb": "img/produtos/toalhinhas/01-t.webp",
+   "w": 1000,
+   "h": 1000
+  }
+ ]
+}
