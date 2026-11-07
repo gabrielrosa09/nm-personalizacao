@@ -120,6 +120,17 @@
 .hero-arte [fill="#e11d74"] { fill: #c8102e; }
 .hero-arte [fill="#ffd100"] { fill: #e8b42c; }
 
+/* ---------- Vitrine de modelos de Natal (index.html#natal) ---------- */
+.vitrine-natal { position: relative; }
+.vitrine-natal::before {           /* listra de bengala no topo */
+  content: "";
+  position: absolute; left: 0; right: 0; top: 0;
+  height: 6px;
+  background: repeating-linear-gradient(-45deg, var(--magenta) 0 10px, #fff 10px 20px);
+}
+.vitrine-natal .galeria-item img { object-position: top; }   /* plaquinha é retrato */
+.vitrine-natal .btn { margin-top: 1.75rem; }
+
 /* ---------- Ocasiões: Natal em destaque ---------- */
 .chips li.destaque {
   background: var(--magenta);
