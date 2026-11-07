@@ -206,7 +206,7 @@ function galeriaDe(p, base, sec) {
     <div class="container">
       <p class="eyebrow">Feito por nós</p>
       <h2>Trabalhos que já saíram daqui</h2>
-      <p class="intro">Fotos reais de encomendas entregues. Toque para ampliar.</p>
+      <p class="intro">Encomendas entregues e modelos criados por nós. Toque para ampliar.</p>
       <div class="galeria">
         ${itens}
       </div>

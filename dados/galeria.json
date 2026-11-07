@@ -519,6 +519,18 @@
    "thumb": "img/produtos/placas/03-t.webp",
    "w": 619,
    "h": 1100
+  },
+  {
+   "img": "img/produtos/placas/04.webp",
+   "thumb": "img/produtos/placas/04-t.webp",
+   "w": 1080,
+   "h": 1080
+  },
+  {
+   "img": "img/produtos/placas/05.webp",
+   "thumb": "img/produtos/placas/05-t.webp",
+   "w": 1080,
+   "h": 1080
   }
  ],
  "lembrancinhas": [
