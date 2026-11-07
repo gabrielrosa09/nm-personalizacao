@@ -44,6 +44,13 @@ const marcaSvg = `<svg viewBox="0 0 64 64" aria-hidden="true">
   <g fill="none" stroke="#17123a" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 49V19l15 30V19"/><path d="M35 49V19l8 17 8-17v30"/></g>
 </svg>`;
 
+/* ---------------- tema de Natal (liga/desliga em config.json → "natal") ---------------- */
+function faixaNatal() {
+  if (!cfg.natal) return '';
+  return `
+<div class="faixa-natal">🎄 Encomendas de Natal abertas — peça com antecedência e garanta seus presentes personalizados. <a href="${zap('Olá! Vi o site da NM Personalização e quero encomendar presentes de Natal.')}" target="_blank" rel="noopener">Encomendar pelo WhatsApp →</a></div>`;
+}
+
 /* ---------------- cabeçalho / rodapé compartilhados ---------------- */
 function cabecalho(base) {
   const msg = 'Olá! Vi o site da NM Personalização e quero um orçamento.';
@@ -126,7 +133,7 @@ function head({ titulo, meta, canonical, imagem, extra = '' }) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/estilo.css">
+<link rel="stylesheet" href="../css/estilo.css">${cfg.natal ? '\n<link rel="stylesheet" href="../css/natal.css">' : ''}
 ${extra}
 </head>`;
 }
@@ -270,7 +277,7 @@ function paginaProduto(p, imagem) {
     extra: `<script type="application/ld+json">${JSON.stringify(schema)}</script>`,
   })}
 <body>
-${cabecalho(base)}
+${faixaNatal()}${cabecalho(base)}
 
 <main>
   <section class="${sec()}" style="padding-top:2.5rem">

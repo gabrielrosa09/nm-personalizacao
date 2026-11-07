@@ -14,6 +14,7 @@
     "cep": ""
   },
   "geo": { "lat": -15.9060, "lng": -48.0620 },
+  "natal": true,
   "horario": "Segunda a sábado, com hora marcada pelo WhatsApp",
   "regioes": [
     "Recanto das Emas", "Samambaia", "Riacho Fundo I e II", "Gama", "Santa Maria",
